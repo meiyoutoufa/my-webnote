@@ -32,9 +32,34 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
+
+  // 添加本地搜索主题
+  themes: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        hashed: true,
+        language: ['en', 'zh'], // 改为 'zh' 而不是 'zh-Hans'
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        docsRouteBasePath: '/docs',
+        blogRouteBasePath: '/blog',
+        indexDocs: true,
+        indexBlog: true,
+        indexPages: false,
+        searchResultLimits: 8,
+        searchResultContextMaxLength: 50,
+        // 添加这些配置来增强侧边栏搜索体验
+        searchBarShortcut: true,
+        searchBarShortcutHint: false,
+        // 在侧边栏显示搜索建议
+        searchBarPosition: 'auto',
+      },
+    ],
+  ],
 
   presets: [
     [
