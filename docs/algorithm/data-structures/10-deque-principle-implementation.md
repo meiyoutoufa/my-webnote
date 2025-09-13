@@ -126,7 +126,7 @@ func main() {
 
 ## 用数组实现双端队列
 
-也很简单吧，直接复用我们在 [环形数组技巧](05-环形数组技巧及实现.md) 中实现的 `CycleArray` 提供的方法就行了。环形数组头尾增删元素的复杂度都是 O(1)：
+也很简单吧，直接复用我们在 [环形数组技巧](05-circular-array-implementation.md) 中实现的 `CycleArray` 提供的方法就行了。环形数组头尾增删元素的复杂度都是 O(1)：
 
 ```go
 // MyArrayDeque is a generic deque implemented using a CycleArray

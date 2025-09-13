@@ -11,7 +11,7 @@ tags:
 _一句话总结_
 二叉搜索树是特殊的二叉树结构，其主要的实际应用是 `TreeMap` 和 `TreeSet`。
 
-前文[几种常见的二叉树类型](./18-二叉树基础及常见类型.md) 介绍二叉搜索树，接下来我会带你亲自实现一个类似 Java 标准库的 `TreeMap` 和 `TreeSet` 结构，帮助你知行合一。
+前文[几种常见的二叉树类型](./18-binary-tree-basics-types.md) 介绍二叉搜索树，接下来我会带你亲自实现一个类似 Java 标准库的 `TreeMap` 和 `TreeSet` 结构，帮助你知行合一。
 
 不过呢，考虑到本文还处在数据结构基础的章节，本文仅讲解 TreeMap/TreeSet 的原理，动手实现 TreeMap/TreeSet 我放到了二叉树系列习题的后面。
 
@@ -119,7 +119,7 @@ class MyTreeMap<K, V> {
 
 除了标准的增删查改方法 `get, put, remove, containsKey` 之外，`TreeMap` 还提供了很多额外方法，主要和 key 的大小相关。怎么样，是不是感觉很强大？
 
-哈希表很实用，但是它确实没办法很好地处理键之间的大小关系。前文[用链表加强哈希表](./16-用链表加强哈希表（LinkedHashMap）.md) 中实现的 `LinkedHashMap` 也只是做到按「插入顺序」排列哈希表中的键，依然做不到按「大小顺序」排列。
+哈希表很实用，但是它确实没办法很好地处理键之间的大小关系。在前面的 [用链表加强哈希表（LinkedHashMap）](./16-linkedhashmap-enhancement.md) 一文中，我们介绍了如何用链表来增强哈希表的实现。
 
 下面简单介绍一下 TreeMap 的每个方法的实现原理，具体的代码在后文 TreeMap/TreeSet 的实现 细说。
 

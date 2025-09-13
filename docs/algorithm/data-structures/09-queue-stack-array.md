@@ -59,7 +59,7 @@ func (s *MyArrayStack[T]) Size() int {
 
 按照我们之前实现 MyArrayList 的逻辑，是不行的。因为数组头部增删元素的时间复杂度都是 O(n)，不符合要求。
 
-但是我们可以改用前文 [环形数组技巧](05-环形数组技巧及实现.md) 中实现的 `CycleArray` 类，这个数据结构在头部增删元素的时间复杂度是 O(1)，符合栈的要求。
+但是我们可以改用前文 [环形数组技巧](05-circular-array-implementation.md) 中实现的 `CycleArray` 类，这个数据结构在头部增删元素的时间复杂度是 O(1)，符合栈的要求。
 
 你直接调用 `CycleArray` 的 `addFirst` 和 `removeFirs`t 方法实现栈的 API 就行，我这里就不写了。
 
