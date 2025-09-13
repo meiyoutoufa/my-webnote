@@ -178,6 +178,21 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ['go','java','python','rust', 'typescript', 'javascript', 'bash', 'json', 'c','cpp'],
+      magicComments: [
+        {
+          className: 'theme-code-block-highlighted-line',
+          line: 'highlight-next-line',
+          block: {start: 'highlight-start', end: 'highlight-end'},
+        },
+      ],
+    },
+    // 启用代码块复制按钮
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+      },
     },
   } satisfies Preset.ThemeConfig,
 };
