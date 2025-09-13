@@ -85,7 +85,7 @@ func main() {
 
 我们不妨进一步想想，它是怎么打乱顺序的呢？真是随机打乱吗？
 
-其实不是，你仔细看看，它这个乱序是有规律的。有没有想起前面讲过的[环形数组](05-circular-array-implementation.md)？
+其实不是，你仔细看看，它这个乱序是有规律的。有没有想起前面讲过的[环形数组](./05-circular-array-implementation.md)？
 
 ```text
 | 1 2 3 4 5
