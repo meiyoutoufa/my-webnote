@@ -37,7 +37,8 @@ const sidebars: SidebarsConfig = {
       items: [
         'notes/tech/summary',
         'notes/tech/automation-system-architecture',
-        'notes/tech/open-platform-architecture'
+        'notes/tech/open-platform-architecture',
+        'notes/tech/permission_public'
       ],
     },
   ],
