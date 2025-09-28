@@ -36,7 +36,8 @@ const sidebars: SidebarsConfig = {
       label: '技术笔记',
       items: [
         'notes/tech/summary',
-        'notes/tech/automation-system-architecture'
+        'notes/tech/automation-system-architecture',
+        'notes/tech/open-platform-architecture'
       ],
     },
   ],
