@@ -40,7 +40,8 @@ const sidebars: SidebarsConfig = {
         'notes/tech/open-platform-architecture',
         'notes/tech/permission_public',
         'notes/tech/condition_model',
-        'notes/tech/stamp_cache'
+        'notes/tech/stamp_cache',
+        'notes/tech/goroutine_local_storage'
       ],
     },
   ],

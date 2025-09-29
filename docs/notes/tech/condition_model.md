@@ -338,12 +338,13 @@ func (e *InUserDomainsEvaluator) Eval() chan EvalResult {
 ## 9. 扩展设计与示例
 
 - 新操作符示例：字段比较
-  - op: "field_equals"，params: { "field": "priority", "value": "P1" }
+  - op: `"field_equals"，params: { "field": "priority", "value": "P1" }`
   - 评估器读取 Context 中的字段并进行常量比较。
 - 时间窗口控制
-  - op: "time_window"，params: { "start": "...", "end": "..." }
+  - op: `"time_window"，params: { "start": "...", "end": "..." }`
   - 用于限制在特定时间范围内才允许操作。
 - InUserDomains 扩展示例（all 模式 + 关闭超管绕过）：
+
 ```json
 {
   "op": "in_user_domains",
