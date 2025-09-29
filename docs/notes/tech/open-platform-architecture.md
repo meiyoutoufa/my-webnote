@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 6
 title: "企业级多进程隔离 + 消息总线的开放平台方案"
 ---
 
