@@ -17,6 +17,7 @@ sidebar_position: 1
 ## 学习路径
 
 1. 从HTML和CSS基础开始
+    [w3school的css教程](https://www.w3school.com.cn/css/index.asp)
 2. 学习JavaScript核心概念
 3. 掌握现代前端框架
 4. 实践项目开发
